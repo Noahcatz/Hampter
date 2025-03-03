@@ -52,6 +52,13 @@
             <img src="Media/ScreenShot1.png">
             <figcaption>Sourced from: <a href="https://www.discord.com">Discord</a></figcaption>
         </figure>
+        <h2>All code is AI generated</h2>
+        <p>All of hampters code is AI generated but he always claims its made by him, leading to false knowledge that he knows what hes doing.</p>
+        <p>Context: Claimed to know html</p>
+        <figure>
+            <img src="Media/ScreenShot2.png">
+            <figcaption>Sourced from: <a href="https://www.discord.com">Discord</a></figcaption>
+        </figure>
         <h2>Two-Faced attitude</h2>
         <p>Hampter often is often in one of two moods, one of which is god-awful.</p>
         <p>When aggrivated, he will often throw insults and block you.</p>
@@ -81,12 +88,14 @@
         </ul>
     </main>
     <script>
-        const Continue = confirm("WARNING: All Real-Life photos are publically accessible online, Would you like to continute?")
-        if(Continue == true){
-            document.querySelector("main").removeAttribute("hidden")
-        }else{
-            window.close()
-        }
+        const Continue = confirm("WARNING: All Real-Life photos are publicly accessible online. Would you like to continue?");
+            if (Continue) {
+                document.querySelector("main").removeAttribute("hidden");
+            } else {
+                setTimeout(() => {
+                    window.close();
+                }, 100);
+            }
     </script>
 </body>
 </html>
