@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <main>
+    <main hidden>
         <h1>Hampter: Who he really is</h1>
         <p>You might already know Brad (Hampter as his online name), hes the one in the server talking about his projects such as "WarpCore". What you dont know, is that theres a dark side of him you probably havent seen.</p>
         <p>Im lordcat, one of the former devs for hampter for context.</p>
@@ -84,6 +84,8 @@
         const Continue = confirm("WARNING: All Real-Life photos are publically accessible online, Would you like to continute?")
         if(Continue == true){
             document.querySelector("main").removeAttribute("hidden")
+        }else{
+            window.close()
         }
     </script>
 </body>
